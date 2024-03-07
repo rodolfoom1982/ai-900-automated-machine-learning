@@ -7,10 +7,11 @@ Neste exercício, foi utilizado um dataset público contendo o histórico de alu
 
 a) Acessar o Azure Machine Learning
 <br><br>
-[![Watch the video](readmeFiles/videos/001.mp4)
+![alt text](readmeFiles/gifs/001.gif)
 
 b) Criar um Resource Group para armazenar o serviço
-002
+<br><br>
+![alt text](readmeFiles/gifs/002.gif)
 
 c) Inserir as configurações do Workspace
 --> Informar apenas o campo Name
@@ -18,7 +19,7 @@ c) Inserir as configurações do Workspace
 --> Na sequência, clicar em Review + create
 ![alt text](readmeFiles/images/003.png)
 
-d) Crear o serviço
+d) Criar o serviço
 --> Aguardar a mensagem de validação, conforme imagem a baixo, e clicar em Create
 ![alt text](readmeFiles/images/004.png)
 
@@ -34,10 +35,12 @@ e) Aguardar a implantação do serviço
 
 a) Abrir o Machine Learning Studio
 --> Durante o carregamento, pode ser solicitado, novamente, sua conta do Azure
-![alt text](readmeFiles/images/006.png)
+<br><br>
+![alt text](readmeFiles/gifs/006.gif)
 
 b) Criar um Novo Trabalho de Machine Learning Automatizado
-![alt text](readmeFiles/images/007.png)
+<br><br>
+![alt text](readmeFiles/gifs/007.gif)
 
 c) Preencher as configurações básicas
 ![alt text](readmeFiles/images/008.png)
@@ -98,7 +101,13 @@ e) Implantar e testar o modelo
 ![alt text](readmeFiles/images/0034.png)
 
 f) Testar o modelo
-![alt text](readmeFiles/images/035.png)
+<br><br>
+![alt text](readmeFiles/gifs/035.gif)
 --> Resultado do teste
 O resultado indica a quantidade de bicicletas necessárias para atender à demanda de acordo com a data e as condições meterorógicas informadas
 ![alt text](readmeFiles/images/0036.png)
+
+
+# 4ª Etapa) Limpar o ambiente
+
+É necessário excluir todos os recursos e grupos de recursos após a conclusão deste exercício para que não haja cobranças indevidas no Azure
