@@ -6,6 +6,7 @@ Neste exercício, foi utilizado um dataset público contendo o histórico de alu
 # 1ª Etapa) Aprovisionar o serviço de Machine Learning
 
 a) Acessar o Azure Machine Learning
+<br><br>
 001
 
 b) Criar um Resource Group para armazenar o serviço
