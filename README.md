@@ -7,7 +7,7 @@ Neste exercício, foi utilizado um dataset público contendo o histórico de alu
 
 a) Acessar o Azure Machine Learning
 <br><br>
-001
+[![Watch the video](readmeFiles/videos/001.mp4)
 
 b) Criar um Resource Group para armazenar o serviço
 002
@@ -16,17 +16,17 @@ c) Inserir as configurações do Workspace
 --> Informar apenas o campo Name
 --> Para os demais, deixar os valores padrões
 --> Na sequência, clicar em Review + create
-003
+![alt text](readmeFiles/images/003.png)
 
 d) Crear o serviço
 --> Aguardar a mensagem de validação, conforme imagem a baixo, e clicar em Create
-004
+![alt text](readmeFiles/images/004.png)
 
 
 e) Aguardar a implantação do serviço
 --> Quando a mesma estiver concluída, o status <i>Your deployment is complete</i> aparecerá na tela
 --> Esta etapa leva alguns instantes para ser concluída
-005
+![alt text](readmeFiles/images/005.png)
 
 
 
@@ -34,62 +34,71 @@ e) Aguardar a implantação do serviço
 
 a) Abrir o Machine Learning Studio
 --> Durante o carregamento, pode ser solicitado, novamente, sua conta do Azure
-006
+![alt text](readmeFiles/images/006.png)
 
 b) Criar um Novo Trabalho de Machine Learning Automatizado
-007
+![alt text](readmeFiles/images/007.png)
 
 c) Preencher as configurações básicas
-008
+![alt text](readmeFiles/images/008.png)
 
 d) Criar o tipo de tarefa
-009
+![alt text](readmeFiles/images/009.png)
 
 e) Criar o ativo de dados
-010 até 016
+![alt text](readmeFiles/images/010.png)
+![alt text](readmeFiles/images/011.png)
+![alt text](readmeFiles/images/012.png)
+![alt text](readmeFiles/images/013.png)
+![alt text](readmeFiles/images/014.png)
+![alt text](readmeFiles/images/015.png)
+![alt text](readmeFiles/images/016.png)
 
 f) Configurar tarefas
-017 a 020
+![alt text](readmeFiles/images/017.png)
+![alt text](readmeFiles/images/018.png)
+![alt text](readmeFiles/images/019.png)
+![alt text](readmeFiles/images/020.png)
 
 g) Configurar computação
-021
+![alt text](readmeFiles/images/021.png)
 
 h) Enviar o trabalho para treinamento 
-022
+![alt text](readmeFiles/images/022.png)
 --> Esta ação levará cerca de 15 minutos para ser finalizada
-023
+![alt text](readmeFiles/images/023.png)
 --> Este é o status que indica a conclusão do treinamento
-024
+![alt text](readmeFiles/images/004.png)
 
 
 # 3ª Etapa) Analisar e Testar do Modelo
 
 a) Checar a integridade dos dados
-025
+![alt text](readmeFiles/images/025.png)
 
 b) Checar a conclusão de todas as tarefas
-026
+![alt text](readmeFiles/images/026.png)
 
 c) Identificar o melhor modelo do treinamento
-027
+![alt text](readmeFiles/images/027.png)
 
 d) Checar as métricas deste modelo
-028
+![alt text](readmeFiles/images/028.png)
 --> As métricas mais importantes são: predicted_true e residuals
-029
+![alt text](readmeFiles/images/029.png)
 --> predicted_true: O gráfico predicted_true compara os valores previstos com os valores verdadeiros.
-030
+![alt text](readmeFiles/images/030.png)
 --> residuals: O gráfico de resíduos mostra os resíduos (as diferenças entre os valores previstos e reais) como um histograma
-031
+![alt text](readmeFiles/images/031.png)
 
 e) Implantar e testar o modelo
-032
-033
+![alt text](readmeFiles/images/032.png)
+![alt text](readmeFiles/images/033.png)
 --> A implantação leva entre 5 e 10 minutos
-034
+![alt text](readmeFiles/images/0034.png)
 
 f) Testar o modelo
-035
+![alt text](readmeFiles/images/035.png)
 --> Resultado do teste
 O resultado indica a quantidade de bicicletas necessárias para atender à demanda de acordo com a data e as condições meterorógicas informadas
-036
+![alt text](readmeFiles/images/0036.png)
