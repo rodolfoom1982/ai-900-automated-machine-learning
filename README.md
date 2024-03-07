@@ -3,57 +3,57 @@ Utilização do serviço Aprendizado de Máquina do Azure para treinar e avaliar
 
 Neste exercício, foi utilizado um dataset público contendo o histórico de aluguel de bicicletas para treinar um modelo. Este modelo prevê o número de bicicletas necessárias em um determinado dia, com base em características sazonais e meteorológicas, para atender à demanda de locação.
 
-# 1ª Etapa) Aprovisionar o serviço de Machine Learning
+## 1ª Etapa) Aprovisionar o serviço de Machine Learning
 
-a) Acessar o Azure Machine Learning
+1) Acessar o Azure Machine Learning:
 <br><br>
 ![alt text](readmeFiles/gifs/001.gif)
 
-b) Criar um Resource Group para armazenar o serviço
+2) Criar um Resource Group para armazenar o serviço:
 <br><br>
 ![alt text](readmeFiles/gifs/002.gif)
 
-c) Inserir as configurações do Workspace
---> Informar apenas o campo Name
---> Para os demais, deixar os valores padrões
---> Na sequência, clicar em Review + create
+3) Inserir as configurações do Workspace
+<br>&emsp;*- Informar apenas o campo **Name***
+<br>&emsp;*- Para os demais, deixar os valores padrões*
+<br>&emsp;*- Na sequência, clicar em **Review + create***
 <br><br>
 ![alt text](readmeFiles/images/003.png)
 
-d) Criar o serviço
---> Aguardar a mensagem de validação, conforme imagem a baixo, e clicar em Create
+4) Criar o serviço:
+<br>&emsp;*- Aguardar a mensagem de validação, conforme imagem a baixo, e clicar em **Create***
 <br><br>
 ![alt text](readmeFiles/images/004.png)
 
 
-e) Aguardar a implantação do serviço
---> Quando a mesma estiver concluída, o status <i>Your deployment is complete</i> aparecerá na tela
---> Esta etapa leva alguns instantes para ser concluída
+5) Aguardar a implantação do serviço:
+<br>&emsp;*- Quando a mesma estiver concluída, o status **Your deployment is complete** aparecerá na tela*
+<br>&emsp;*- Esta etapa leva alguns instantes para ser concluída*
 <br><br>
 ![alt text](readmeFiles/images/005.png)
 
 
 
-# 2ª Etapa) Configurar os modelos de Machine Learning e os conjuntos de dados
+## 2ª Etapa) Configurar os modelos de Machine Learning e os conjuntos de dados
 
-a) Abrir o Machine Learning Studio
---> Durante o carregamento, pode ser solicitado, novamente, sua conta do Azure
+1) Abrir o Machine Learning Studio
+<br>&emsp;***Atenção:** Durante o carregamento, pode ser solicitado, novamente, sua conta do Azure*
 <br><br>
 ![alt text](readmeFiles/gifs/006.gif)
 
-b) Criar um Novo Trabalho de Machine Learning Automatizado
+2) Criar um Novo Trabalho de Machine Learning Automatizado
 <br><br>
 ![alt text](readmeFiles/gifs/007.gif)
 
-c) Preencher as configurações básicas
+3) Preencher as configurações básicas:
 <br><br>
 ![alt text](readmeFiles/images/008.png)
 
-d) Criar o tipo de tarefa
+4) Criar o tipo de tarefa:
 <br><br>
 ![alt text](readmeFiles/images/009.png)
 
-e) Criar o ativo de dados
+5) Criar o ativo de dados:
 <br><br>
 ![alt text](readmeFiles/images/010.png)
 <br><br>
@@ -69,7 +69,7 @@ e) Criar o ativo de dados
 <br><br>
 ![alt text](readmeFiles/images/016.png)
 
-f) Configurar tarefas
+6) Configurar tarefas:
 <br><br>
 ![alt text](readmeFiles/images/017.png)
 <br><br>
@@ -79,64 +79,64 @@ f) Configurar tarefas
 <br><br>
 ![alt text](readmeFiles/images/020.png)
 
-g) Configurar computação
+7) Configurar computação:
 <br><br>
 ![alt text](readmeFiles/images/021.png)
 
-h) Enviar o trabalho para treinamento 
+8) Enviar o trabalho para treinamento:
 <br><br>
 ![alt text](readmeFiles/images/022.png)
---> Esta ação levará cerca de 15 minutos para ser finalizada
+<br>&emsp;*- Esta ação levará cerca de 15 minutos para ser finalizada*
 <br><br>
 ![alt text](readmeFiles/images/023.png)
---> Este é o status que indica a conclusão do treinamento
+<br>&emsp;*- Este é o status que indica a conclusão do treinamento*
 <br><br>
 ![alt text](readmeFiles/images/004.png)
 
 
-# 3ª Etapa) Analisar e Testar do Modelo
+## 3ª Etapa) Analisar e Testar do Modelo
 
-a) Checar a integridade dos dados
+1) Checar a integridade dos dados:
 <br><br>
 ![alt text](readmeFiles/images/025.png)
 
-b) Checar a conclusão de todas as tarefas
+1) Checar a conclusão de todas as tarefas:
 <br><br>
 ![alt text](readmeFiles/images/026.png)
 
-c) Identificar o melhor modelo do treinamento
+3) Identificar o melhor modelo do treinamento:
 ![alt text](readmeFiles/images/027.png)
 
-d) Checar as métricas deste modelo
+4) Checar as métricas deste modelo:
 <br><br>
 ![alt text](readmeFiles/images/028.png)
---> As métricas mais importantes são: predicted_true e residuals
+<br>&emsp;*- As métricas mais importantes são: **predicted_true** e **residuals***
 <br><br>
 ![alt text](readmeFiles/images/029.png)
---> predicted_true: O gráfico predicted_true compara os valores previstos com os valores verdadeiros.
+<br>&emsp;*- **predicted_true**: O gráfico predicted_true compara os valores previstos com os valores verdadeiros.*
 <br><br>
 ![alt text](readmeFiles/images/030.png)
---> residuals: O gráfico de resíduos mostra os resíduos (as diferenças entre os valores previstos e reais) como um histograma
+<br>&emsp;*- **residuals:** O gráfico de resíduos mostra os resíduos (as diferenças entre os valores previstos e reais) como um histograma*
 <br><br>
 ![alt text](readmeFiles/images/031.png)
 
-e) Implantar e testar o modelo
+5) Implantar e testar o modelo
 <br><br>
 ![alt text](readmeFiles/images/032.png)
 <br><br>
 ![alt text](readmeFiles/images/033.png)
---> A implantação leva entre 5 e 10 minutos
+<br>&emsp;*- A implantação leva entre 5 e 10 minutos*
 ![alt text](readmeFiles/images/0034.png)
 
-f) Testar o modelo
+6) Testar o modelo
 <br><br>
 ![alt text](readmeFiles/gifs/035.gif)
---> Resultado do teste
-O resultado indica a quantidade de bicicletas necessárias para atender à demanda de acordo com a data e as condições meterorógicas informadas
+<br>&emsp;*- Resultado do teste*
+<br>&emsp;*- O resultado indica a quantidade de bicicletas necessárias para atender à demanda de acordo com a data e as condições meterorógicas informadas*
 <br><br>
 ![alt text](readmeFiles/images/036.png)
 
 
-# 4ª Etapa) Limpar o ambiente
+## 4ª Etapa) Limpar o ambiente
 
 É necessário excluir todos os recursos e grupos de recursos após a conclusão deste exercício para que não haja cobranças indevidas no Azure
