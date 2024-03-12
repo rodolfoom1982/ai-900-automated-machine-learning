@@ -192,7 +192,7 @@ Este modelo previu o número de bicicletas necessárias para atender à demanda 
 
    > ![](readmeFiles/images/033.png)
 
-   > **Atenção**: A implantação levou entre 5 e 10 minutos*
+   > **Atenção**: A implantação levou entre 5 e 10 minutos
 
    > ![](readmeFiles/images/034.png)
 
