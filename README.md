@@ -20,7 +20,7 @@
 - [Configurando os modelos de *Machine Learning* e os conjuntos de dados](#Configurando-os-modelos-de-Machine-Learning-e-os-conjuntos-de-dados)
 - [Analisando e Testando o Modelo](#Analisando-e-Testando-o-Modelo)
 - [Conclusão](#Conclusão)
-- [Limpar o ambiente](#Limpar-o-ambiente)
+- [Limpando o ambiente](#Limpando-o-ambiente)
 - [Certificados e Certificações Associados ao Projeto](#Certificados-e-Certificações-Associados-ao-Projeto)
 
 <br>
