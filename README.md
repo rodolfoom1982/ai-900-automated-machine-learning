@@ -104,27 +104,37 @@ Este modelo previu o número de bicicletas necessárias para atender à demanda 
 
 5) Criei o ativo de dados:
    > ***Tipo de dados***
-   >
+   > ---
    > ![](readmeFiles/images/010.png)
 
+   ---
+  
    > ***Fonte de dados***
-   >
+   > ---
    > ![](readmeFiles/images/011.png)
 
+   ---
+  
    > ***URL da Web***
-   >
+   > ---
    > ![](readmeFiles/images/012.png)
 
+   ---
+  
    > ***Configurações***
-   >
+   > ---
    > ![](readmeFiles/images/013.png)
 
+   ---
+  
    > ***Esquema***
-   >
+   > ---
    > ![](readmeFiles/images/014.png)
 
+   ---
+  
    > ***Examinar***
-   >
+   > ---
    > ![](readmeFiles/images/015.png)
 
 6) Criei o tipo de dados:
@@ -135,10 +145,16 @@ Este modelo previu o número de bicicletas necessárias para atender à demanda 
 
    > ![](readmeFiles/images/017.png)
 
+   ---
+  
    > ![](readmeFiles/images/018.png)
 
+   ---
+  
    > ![](readmeFiles/images/019.png)
 
+   ---
+  
    > ![](readmeFiles/images/020.png)
 
 8) Configurei a computação:
@@ -149,8 +165,12 @@ Este modelo previu o número de bicicletas necessárias para atender à demanda 
    > **Atenção**: Esta ação levou cerca de 15 minutos para ser finalizada
    
    > ![](readmeFiles/images/022.png)
-   
+
+   ---
+     
    > ![](readmeFiles/images/023.png)
+  
+   ---
    
    > ![](readmeFiles/images/024.png)
 
@@ -190,6 +210,8 @@ Este modelo previu o número de bicicletas necessárias para atender à demanda 
 
    > ![](readmeFiles/images/032.png)
 
+   ---
+  
    > ![](readmeFiles/images/033.png)
 
    > **Atenção**: A implantação levou entre 5 e 10 minutos
