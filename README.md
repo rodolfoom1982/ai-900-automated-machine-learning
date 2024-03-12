@@ -3,7 +3,8 @@
 ![Static Badge](https://img.shields.io/badge/Status_Projeto:-Concluído_(06/Mar/2024)-green)
 
 ![Static Badge](https://img.shields.io/badge/Inteligência_Artificial_(IA)-blue)
-![Static Badge](https://img.shields.io/badge/Avaliação_e_Treinamento_de_Modelos_(IA)-blue)
+![Static Badge](https://img.shields.io/badge/IA_Aprendizagem_de_Máquina-blue)
+![Static Badge](https://img.shields.io/badge/IA_Avaliação_e_Treinamento_de_Modelos-blue)
 
 ![Static Badge](https://img.shields.io/badge/Microsoft_Azure-orange)
 ![Static Badge](https://img.shields.io/badge/Azure_Auto_ML-orange)
@@ -250,5 +251,7 @@ Este é apenas um exemplo do potencial do aprendizado de máquina automatizado e
 <br>
 
 ## Certificados e Certificações Associados ao Projeto
+
+![](https://github.com/rodolfoom1982/meus-certificados/blob/main/dio-bootcamp-ai-900-azure-ai-fundamentals/fundamentos-de-aprendizagem-de-maquina.png)
 
 ![](https://github.com/rodolfoom1982/meus-certificados/blob/main/dio-bootcamp-ai-900-azure-ai-fundamentals/trabalhando-com-machine-learning-na-pratica-no-azure-ml.png)
