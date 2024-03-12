@@ -1,6 +1,6 @@
 # AI-900: Trabalhando com Machine Learning na Prática no Azure ML
 
-![Static Badge](https://img.shields.io/badge/Status_Projeto:-Concluído_(11/Mar/2024)-green)
+![Static Badge](https://img.shields.io/badge/Status_Projeto:-Concluído_(06/Mar/2024)-green)
 
 ![Static Badge](https://img.shields.io/badge/Inteligência_Artificial_(IA)-blue)
 ![Static Badge](https://img.shields.io/badge/Avaliação_e_Treinamento_de_Modelos_(IA)-blue)
@@ -16,9 +16,10 @@
 - [Descrição do Projeto](#Descrição-do-Projeto)
 - [Acessos necessários](#Acessos-necessários)
 - [Introdução](#Introdução)
-- [Aprovisionar o serviço de *Machine Learning*](#Aprovisionar-o-serviço-de-Machine-Learning)
-- [Configurar os modelos de *Machine Learning* e os conjuntos de dados](#Configurar-os-modelos-de-Machine-Learning-e-os-conjuntos-de-dados)
-- [Analisar e Testar o Modelo](#Analisar-e-Testar-o-Modelo)
+- [Aprovisionando o serviço de *Machine Learning*](#Aprovisionando-o-serviço-de-Machine-Learning)
+- [Configurando os modelos de *Machine Learning* e os conjuntos de dados](#Configurando-os-modelos-de-Machine-Learning-e-os-conjuntos-de-dados)
+- [Analisando e Testando o Modelo](#Analisando-e-Testando-o-Modelo)
+- [Conclusão](#Conclusão)
 - [Limpar o ambiente](#Limpar-o-ambiente)
 - [Certificados / Certificações Associados ao Projeto](#Certificados-/-Certificações-Associados-ao-Projeto)
 
@@ -54,158 +55,172 @@ Este modelo previu o número de bicicletas necessárias para atender à demanda 
 
 <br>
 
-## Aprovisionar o serviço de Machine Learning
+## Aprovisionando o serviço de *Machine Learning*
 
 1) Como primeiro passo, acessei o **Azure Machine Learning**:
 
-   > ![alt text](readmeFiles/gifs/001.gif)
+   > ![](readmeFiles/gifs/001.gif)
 
 2) Criei um ***Resource Group*** para armazenar o serviço:
 
-   > ![alt text](readmeFiles/gifs/002.gif)
+   > ![](readmeFiles/gifs/002.gif)
 
 3) Inserir as configurações do Workspace (preenchi apenas o campo ***Name***. Para os demais, deixar os valores padrões):
 
-   > ![alt text](readmeFiles/images/003.png)
+   > ![](readmeFiles/images/003.png)
 
 4) Criei o serviço:
 
    > É necessário aguardar a mensagem de validação, conforme imagem a baixo, e, depois, clicar em ***Create***
   
-   > ![alt text](readmeFiles/images/004.png)
+   > ![](readmeFiles/images/004.png)
 
 
 5) Aguardei a implantação do serviço:
 
-   > ![alt text](readmeFiles/images/005.png)
+   > ![](readmeFiles/images/005.png)
 
 <br>
 
-## Configurar os modelos de Machine Learning e os conjuntos de dados
+## Configurando os modelos de *Machine Learning* e os conjuntos de dados
 
 1) Abri o **Machine Learning Studio**:
 
    > **Atenção:** Durante o carregamento, pode ser solicitado, novamente, sua conta do Azure
 
-   > ![alt text](readmeFiles/gifs/006.gif)
+   > ![](readmeFiles/gifs/006.gif)
 
 2) Criar um Novo Trabalho de Machine Learning Automatizado
 
-   > ![alt text](readmeFiles/gifs/007.gif)
+   > ![](readmeFiles/gifs/007.gif)
 
 3) Preenchi as configurações básicas:
 
-   > ![alt text](readmeFiles/images/008.png)
+   > ![](readmeFiles/images/008.png)
 
 4) Criei o tipo de tarefa:
 
-   > ![alt text](readmeFiles/images/009.png)
+   > ![](readmeFiles/images/009.png)
 
 5) Criei o ativo de dados:
    > ***Tipo de dados***
    >
-   > ![alt text](readmeFiles/images/010.png)
+   > ![](readmeFiles/images/010.png)
 
    > ***Fonte de dados***
    >
-   > ![alt text](readmeFiles/images/011.png)
+   > ![](readmeFiles/images/011.png)
 
    > ***URL da Web***
    >
-   > ![alt text](readmeFiles/images/012.png)
+   > ![](readmeFiles/images/012.png)
 
    > ***Configurações***
    >
-   > ![alt text](readmeFiles/images/013.png)
+   > ![](readmeFiles/images/013.png)
 
    > ***Esquema***
    >
-   > ![alt text](readmeFiles/images/014.png)
+   > ![](readmeFiles/images/014.png)
 
    > ***Examinar***
    >
-   > ![alt text](readmeFiles/images/015.png)
+   > ![](readmeFiles/images/015.png)
 
 6) Criei o tipo de dados:
    >
-   > ![alt text](readmeFiles/images/016.png)
+   > ![](readmeFiles/images/016.png)
 
 7) Configurei as tarefas:
 
-   > ![alt text](readmeFiles/images/017.png)
+   > ![](readmeFiles/images/017.png)
 
-   > ![alt text](readmeFiles/images/018.png)
+   > ![](readmeFiles/images/018.png)
 
-   > ![alt text](readmeFiles/images/019.png)
+   > ![](readmeFiles/images/019.png)
 
-   > ![alt text](readmeFiles/images/020.png)
+   > ![](readmeFiles/images/020.png)
 
 8) Configurei a computação:
 
-   > ![alt text](readmeFiles/images/021.png)
+   > ![](readmeFiles/images/021.png)
 
 9) Enviei o trabalho para treinamento:
    > **Atenção**: Esta ação levou cerca de 15 minutos para ser finalizada
    
-   > ![alt text](readmeFiles/images/022.png)
+   > ![](readmeFiles/images/022.png)
    
-   > ![alt text](readmeFiles/images/023.png)
+   > ![](readmeFiles/images/023.png)
    
-   > ![alt text](readmeFiles/images/024.png)
+   > ![](readmeFiles/images/024.png)
 
 <br>
 
-## Analisar e Testar d=o Modelo
+## Analisando e Testando o Modelo
 
 1) Chequei a integridade dos dados:
 
-   > ![alt text](readmeFiles/images/025.png)
+   > ![](readmeFiles/images/025.png)
 
 2) Chequei a conclusão de todas as tarefas:
 
-   > ![alt text](readmeFiles/images/026.png)
+   > ![](readmeFiles/images/026.png)
 
 3) Identifiquei o melhor modelo do treinamento:
 
-   > ![alt text](readmeFiles/images/027.png)
+   > ![](readmeFiles/images/027.png)
 
 4) Chequei as métricas do modelo escolhido:
 
-   > ![alt text](readmeFiles/images/028.png)
+   > ![](readmeFiles/images/028.png)
 
    As métricas mais importantes são: **predicted_true** e **residuals***
 
-     > ![alt text](readmeFiles/images/029.png)
+     > ![](readmeFiles/images/029.png)
 
    *- **predicted_true**: O gráfico predicted_true compara os valores previstos com os valores verdadeiros.*
 
-     > ![alt text](readmeFiles/images/030.png)
+     > ![](readmeFiles/images/030.png)
 
    *- **residuals:** O gráfico de resíduos mostra os resíduos (as diferenças entre os valores previstos e reais) como um histograma*
 
-     > ![alt text](readmeFiles/images/031.png)
+     > ![](readmeFiles/images/031.png)
 
 6) Implantei e testei o modelo
 
-   > ![alt text](readmeFiles/images/032.png)
+   > ![](readmeFiles/images/032.png)
 
-   > ![alt text](readmeFiles/images/033.png)
+   > ![](readmeFiles/images/033.png)
 
    > **Atenção**: A implantação levou entre 5 e 10 minutos*
 
-   > ![alt text](readmeFiles/images/034.png)
+   > ![](readmeFiles/images/034.png)
 
 7) Testei o modelo
 
-   > ![alt text](readmeFiles/gifs/035.gif)
+   > ![](readmeFiles/gifs/035.gif)
 
    O resultado do teste indicou que precisava de 298 bicicletas para atender à demanda de acordo com a data e as condições meterorógicas informadas
 
-   > ![alt text](readmeFiles/images/036.png)
+   > ![](readmeFiles/images/036.png)
 
 <br>
 
-## Limpar o ambiente
+## Conclusão
+
+Este exercício demonstrou o poder e a eficácia do aprendizado de máquina automatizado.
+
+Ao utilizar um conjunto de dados históricos de aluguel de bicicletas, fui capaz de treinar um modelo para prever com precisão o número de aluguéis esperados em um determinado dia, levando em consideração fatores sazonais e meteorológicos.
+
+Isso ilustra como o aprendizado de máquina pode ser aplicado a problemas do mundo real, fornecendo insights valiosos e permitindo a tomada de decisões informadas.
+
+A capacidade de experimentar vários algoritmos e parâmetros me permitiu identificar o modelo mais eficaz para os dados específicos.
+
+Este é apenas um exemplo do potencial do aprendizado de máquina automatizado e das possibilidades que ele oferece para uma ampla gama de aplicações.
+
+<br>
+
+## Limpando o ambiente
 
 > [!WARNING]
 > Após a conclusão do projeto, se não for reaproveitar os recursos utilizados, é aconselhável excluí-los, bem como os grupos de recursos, para que não haja cobranças indevidas na sua Azure Subscription
@@ -213,3 +228,5 @@ Este modelo previu o número de bicicletas necessárias para atender à demanda 
 <br>
 
 ## Certificados / Certificações Associados ao Projeto
+
+![](https://github.com/rodolfoom1982/meus-certificados/blob/main/dio-bootcamp-ai-900-azure-ai-fundamentals/trabalhando-com-machine-learning-na-pratica-no-azure-ml)
