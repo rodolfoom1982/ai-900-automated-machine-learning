@@ -21,7 +21,7 @@
 - [Analisando e Testando o Modelo](#Analisando-e-Testando-o-Modelo)
 - [Conclusão](#Conclusão)
 - [Limpar o ambiente](#Limpar-o-ambiente)
-- [Certificados / Certificações Associados ao Projeto](#Certificados-/-Certificações-Associados-ao-Projeto)
+- [Certificados e Certificações Associados ao Projeto](#Certificados-e-Certificações-Associados-ao-Projeto)
 
 <br>
 
@@ -227,6 +227,6 @@ Este é apenas um exemplo do potencial do aprendizado de máquina automatizado e
 
 <br>
 
-## Certificados / Certificações Associados ao Projeto
+## Certificados e Certificações Associados ao Projeto
 
 ![](https://github.com/rodolfoom1982/meus-certificados/blob/main/dio-bootcamp-ai-900-azure-ai-fundamentals/trabalhando-com-machine-learning-na-pratica-no-azure-ml.png)
