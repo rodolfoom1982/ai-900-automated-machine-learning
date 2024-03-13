@@ -255,3 +255,5 @@ Este é apenas um exemplo do potencial do aprendizado de máquina automatizado e
 ![](https://github.com/rodolfoom1982/meus-certificados/blob/main/dio-bootcamp-ai-900-azure-ai-fundamentals/fundamentos-de-aprendizagem-de-maquina.png)
 
 ![](https://github.com/rodolfoom1982/meus-certificados/blob/main/dio-bootcamp-ai-900-azure-ai-fundamentals/trabalhando-com-machine-learning-na-pratica-no-azure-ml.png)
+
+![](https://github.com/rodolfoom1982/meus-certificados/blob/main/dio-bootcamp-ai-900-azure-ai-fundamentals/microsoft-azure-ai-fundamentals.png)
